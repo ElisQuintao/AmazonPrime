@@ -24,16 +24,26 @@
 }
 #text{
     width: 50%;
-    height: 500px;
+    height: 300px;
 background-color: rgb(181, 78, 78);
 }
 #banner{
     width: 50%;
-    height: 500px;
+    height: 300px;
 }
 p{
     color: white;
 }
 img{
-    height: 500px;
+    height: 300px;
+}
+a{
+    
+
+
+}
+.linkbotao{
+    height: 20px;
+    color: white;
+    background-color: blue;
 }
