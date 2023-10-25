@@ -1,0 +1,110 @@
+@font-face{
+    font-family: 'primeLT';
+    src: url(../fontes/AmazonEmber_Lt.woff);}
+    @font-face{
+        font-family: 'primeRg';
+        src: url(../fontes/AmazonEmber_Rg.woff);
+    }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#pagina{
+    width:100%;
+    height: 100vh;
+}
+/* navegação */
+header{
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    justify-content: center; 
+    line-height: 6vh;
+    gap: 50px;
+   font-size: 18px;
+   display: flex;
+}
+nav{
+width: 100%;
+height: auto;
+align-items: center; 
+background-color: black;
+justify-items:center;
+padding: 10px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    align-items: center;
+    padding: 10px;
+    font-family:'primeLT';
+}
+nav a img{
+    width: 96px;
+    height: 18px;
+}
+/* secao1 topo */
+main{
+    width: 100%;
+    height: 2000px;
+    background-color: aqua;
+}
+#secaoTopo{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-position: center right;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgb(0, 0, 0, 1) 40%, rgb(0, 0, 0, 0)), url(../imagens/backg\ gen\ V.jpg);
+}
+#banner{
+    width: 100%; 
+    min-height: 90vh;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    height: 4vh;
+    width: auto;
+    line-height: 6vh;
+
+
+}
+.img{
+    width: 60%;
+    height: 85vh;
+    align-items: center;
+    
+    
+    
+}
+
+#textoLink{
+    width: 40%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    /* background-color: black; */
+    justify-content: space-between;
+  
+
+}
+h1{
+color: white;
+font-size: 20px;
+padding: 10px;
+font-family:'primeRg';
+}
+.boton{
+    color: white;
+
+}
+p{
+    color: white;
+font-size: 14px;
+font-family:'primeLT';
+}
